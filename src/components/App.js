@@ -10,9 +10,15 @@ function App() {
     <div className="App">
 
       <Router>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/services">Services</Link>
+        
+        <div className="navbar bg-light">
+          <h1 className="navbar-brand">
+            <img src="" alt="Company Logo" class="d-inline-block align-text-top"></img> 
+            Tanleys' Balloons and Events</h1>          
+          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/services">Services</Link>                   
+        </div>
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route exact path="/about" element={<About />}/>

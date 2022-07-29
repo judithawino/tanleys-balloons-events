@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from "react";
+import Service from "./Service";
 
 export default function Services(){
     const[service,setService] = useState([]);
-    const{id, title, description, price, picture}= serviceObje
+   
 
     function handleServiceFetch(){
         fetch('https://tanleys.herokuapp.com/services')
@@ -13,12 +14,18 @@ export default function Services(){
         })
     }
     useEffect(handleServiceFetch,[])
+    
+    const serviceList=service.map((services)=>(
+        <Service key={services.id}
+        serviceObje={services}        
+        />
+      ))
     return (
         <div>
             <h1> Services</h1>
             <p>Our services include ...</p>
-            <div key={id}>
-                {service}
+            <div>
+                {serviceList}
             </div>
         </div>
     )

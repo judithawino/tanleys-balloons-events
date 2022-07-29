@@ -5,7 +5,8 @@ import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import About from './About';
 import Home from './Home';
 import Services from './Services';
-// import reactjsx from "./reactjsx.png";
+import FeedbackCard from './FeedbackCard';
+
 
 
 function App() {
@@ -19,14 +20,16 @@ function App() {
             Tanleys' Balloons and Events</h1>          
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           <Link className="nav-link active" to="/about">About</Link>
-          <Link className="nav-link active" to="/services">Services</Link>                   
+          <Link className="nav-link active" to="/services">Services</Link> 
+          <Link className="nav-link active" to="/feedbacks">Feedbacks</Link>                  
         </div>
 
 
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route exact path="/about" element={<About />}/>
-          <Route excat path="/services" element={<Services />}/>          
+          <Route excat path="/services" element={<Services />}/> 
+          <Route excat path="/feedbacks" element={<FeedbackCard />}/>         
         </Routes>
 
         <div>

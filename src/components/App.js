@@ -30,7 +30,7 @@ function App() {
         </Routes>
 
         <div>
-        <div className="container" style={{background:'#27104e', maxWidth:"100%"}}>
+        <div className="container" style={{background:'#27104e', maxWidth:"100%", position:'absolute'}}>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style={{width:'100%', color:'#FFFFFF'}}>
           <p className="col-md-4 mb-0 "style={{color:'#FFFFFF'}}>© 2022 Company, Inc</p>
 

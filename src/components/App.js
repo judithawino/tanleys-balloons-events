@@ -6,7 +6,7 @@ import About from './About';
 import Home from './Home';
 import Services from './Services';
 import FeedbackCard from './FeedbackCard';
-
+import GalleryList from './GalleryList';
 
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           <Link className="nav-link active" to="/about">About</Link>
           <Link className="nav-link active" to="/services">Services</Link> 
-          <Link className="nav-link active" to="/feedbacks">Feedbacks</Link>                  
+          <Link className="nav-link active" to="/feedbacks">Feedbacks</Link> 
+          <Link className="nav-link active" to="/gallery">Gallery</Link>                 
         </div>
 
 
@@ -29,7 +30,8 @@ function App() {
           <Route exact path="/" element={<Home />}/>
           <Route exact path="/about" element={<About />}/>
           <Route excat path="/services" element={<Services />}/> 
-          <Route excat path="/feedbacks" element={<FeedbackCard />}/>         
+          <Route excat path="/feedbacks" element={<FeedbackCard />}/> 
+          <Route excat path="/gallery" element={<GalleryList />}/>        
         </Routes>
 
         <div>

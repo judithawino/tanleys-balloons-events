@@ -1,5 +1,6 @@
 import React from 'react';
-// import Contact from './Contact';
+import Core_value from './images/Core_value.jpg'
+
 
 export default function About(){
 
@@ -24,7 +25,7 @@ export default function About(){
                         <div className="card-body"> 
                             <ul className="list-group list-group-right">
                                 <h3 className='card-title'>Integrity</h3>                    
-                                <p>We operate on a foundation of trust, integrity and respect which are fundamental for the success of our business and personal relations. </p>                     
+                                <p>We operate on a foundation of trust, integrity and respect which are fundamental for the success of our business and personal relations. We value intetgrity in our work all day everyday. </p>                     
                             </ul>
                         </div>    
                     </div>
@@ -52,7 +53,7 @@ export default function About(){
                     </div>
                 </div>
             </div> 
-            
+            <img src={Core_value} className="d-block w-100" alt="Core Values" style={{width:'150px', height:'550px', display:'block', margin:'0'}}/>
             <div className="row" style={{marginLeft: "100px"}}>
                 <div className="col-md-3">
                     <div className='card' style={{width: 18 + 'rem'}}>

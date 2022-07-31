@@ -51,7 +51,6 @@ function App() {
             <li className="nav-item"><Link to="/" className="nav-link px-2" style={{color:'#FFFFFF'}}>Home</Link></li>
             <li className="nav-item"><Link to="/about" className="nav-link px-2 " style={{color:'#FFFFFF'}}>About</Link></li>
             <li className="nav-item"><Link to="/services" className="nav-link px-2" style={{color:'#FFFFFF'}}>Services</Link></li>
-            <li className="nav-item"><Link to="/faqs" className="nav-link px-2 " style={{color:'#FFFFFF'}}>FAQs</Link></li>
             <li className="nav-item"><Link to="contact" className="nav-link px-2 " style={{color:'#FFFFFF'}}>Contact</Link></li>
           </ul>
         </footer>

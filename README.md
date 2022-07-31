@@ -11,6 +11,12 @@ The website allows the company's users to view the company's services, past work
 Run `npm install` to install all the required dependencies.
 Run `npm start` to start the local server
 
+db.json repository: https://github.com/judithawino/json-api-server
+
+services api:https://tanleys.herokuapp.com/services
+previous work api: https://tanleys.herokuapp.com/prev-work
+feedback api:https://tanleys.herokuapp.com/feedback
+
 You can also get the live website from: https://tanleyseventske.netlify.app/
 ### Author
 

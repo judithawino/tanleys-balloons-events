@@ -7,6 +7,7 @@ import Home from './Home';
 import Services from './Services';
 import FeedbackCard from './FeedbackCard';
 import GalleryList from './GalleryList';
+import Contact from './Contact';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
           <Route exact path="/about" element={<About />}/>
           <Route excat path="/services" element={<Services />}/> 
           <Route excat path="/feedbacks" element={<FeedbackCard />}/> 
-          <Route excat path="/gallery" element={<GalleryList />}/>        
+          <Route excat path="/gallery" element={<GalleryList />}/> 
+          <Route exact path="/contact" element={<Contact />} />      
         </Routes>
 
         <div>

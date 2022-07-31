@@ -12,7 +12,7 @@ export default function Home(){
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <img src={table_setting} className="d-block w-100" alt="..." style={{height:500 +'px'}}/>
+                        <img src={table_setting} className="d-block w-100" alt="Table Setting" style={{height:500 +'px'}}/>
                         <div className="carousel-caption d-none d-md-block" style={{color:'black'}}>
                             <h1>Tanley's Balloons and Events Kenya</h1>
                             <p className='lead'>Welcome to Tanley's balloons and events.<br/>
@@ -21,7 +21,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="10000">
-                    <img src={babyshower} className="d-block w-100" alt="..." style={{height:500 +'px'}}/>
+                    <img src={babyshower} className="d-block w-100" alt="Babyshower" style={{height:500 +'px'}}/>
                     <div className="carousel-caption d-none d-md-block" style={{color:'black'}}>
                             <h1>Tanley's Balloons and Events Kenya</h1>
                             <p className='lead'>we strive to give you quality at all times.<br/>
@@ -30,8 +30,8 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="10000">
-                        <img src={img} className="d-block w-100" alt="..." style={{height:500+'px'}}/>
-                        <div class="carousel-caption d-none d-md-block" style={{color:'black'}}>
+                        <img src={img} className="d-block w-100" alt="Birthday Decor" style={{height:500+'px'}}/>
+                        <div className="carousel-caption d-none d-md-block" style={{color:'black'}}>
                             <h1>Tanley's Balloons and Events Kenya</h1>
                             <p className='lead'>What makes us your number one event company country wide, <br/>
                                 is that we not only promise to work dilligently, but to also deliver beyond your expectations. 
@@ -39,14 +39,14 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="10000">
-                        <img src={balloon_hug} className="d-block w-100" alt="..." style={{height:500+'px'}}/>
+                        <img src={balloon_hug} className="d-block w-100" alt="Balloon Hug" style={{height:500+'px'}}/>
                         <div className="carousel-caption d-none d-md-block" style={{color:'black'}}>
                             <h1>Tanley's Balloons and Events Kenya</h1>
                             <p className='lead'>We are located in Kisumu, along Swan Center</p>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="10000">
-                        <img src={lux} className="d-block w-100" alt="..." style={{height:500+'px'}}/>
+                        <img src={lux} className="d-block w-100" alt="Lux Picnic" style={{height:500+'px'}}/>
                         <div className="carousel-caption d-none d-md-block" style={{color:'black'}}>
                             <h1>Tanley's Balloons and Events Kenya</h1>
                             <p className='lead' style={{flush:'left'}}>However, we are flexible and ready to travel whenever duty calls.</p>
@@ -119,10 +119,7 @@ export default function Home(){
                                     <li className="list-item">Pedestal Cake stands</li>
                                     <li className="list-item">Centerpieces with flowers and candles, charger plates, napkins and rings</li>
                                     <li className="list-item">Cutlery, Glasses and labour</li>
-                                    <li className="list-item">Thank you cards</li>
-                                    {/* <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                                        15 PAX @<br/>Ksh.41,000/
-                                    </span> */}
+                                    <li className="list-item">Thank you cards</li>                                    
                                 </ul>
                             </ul>
                         </div>

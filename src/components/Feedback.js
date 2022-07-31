@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Feedback({feed, onDelete}){
-    const {id, custName, content}=feed
+    const {custName, content}=feed
 
     function handleDeleteClick() {
         fetch(`https://tanleys.herokuapp.com/feedback/${feed.id}`, {
@@ -18,9 +18,9 @@ export default function Feedback({feed, onDelete}){
                     <h3 className="card-title">{custName}</h3>
                     <p className="card-text">{content}</p>                    
                 </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button" style={{background:'#27104e', color:'#FFFFFF'}}>Edit</button>
-                    <button class="btn btn-primary" type="button" style={{background:'#27104e', color:'#FFFFFF'}} onClick={handleDeleteClick}>Delete</button>
+                <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button className="btn btn-primary me-md-2" type="button" style={{background:'#27104e', color:'#FFFFFF'}}>Edit</button>
+                    <button className="btn btn-primary" type="button" style={{background:'#27104e', color:'#FFFFFF'}} onClick={handleDeleteClick}>Delete</button>
                 </div>
                 </div> 
             </div>       

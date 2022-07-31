@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Gallery({gallery}){
-    const{id, workName, imageUrl}=gallery
+    const{workName, imageUrl}=gallery
     return(
         <div className="card" style={{width: 18 + 'rem'}}>
             <img src={imageUrl} className="card-img-top" alt="event"/>

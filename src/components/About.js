@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from './Contact';
+// import Contact from './Contact';
 
 export default function About(){
 
@@ -86,8 +86,7 @@ export default function About(){
                         </div>
                     </div>
                 </div>
-            </div> 
-            {/* <Contact />       */}
+            </div>            
         </div>
     )
 }

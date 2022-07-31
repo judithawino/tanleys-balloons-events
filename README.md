@@ -12,12 +12,6 @@ Run `npm install` to install all the required dependencies.
 Run `npm start` to start the local server
 
 You can also get the live website from: https://tanleyseventske.netlify.app/
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### Author
 
 Judith Omondi
